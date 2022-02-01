@@ -83,20 +83,3 @@ $(document).ready(function(){
   });
 });
 // categories slider 
-$('.slider').owlCarousel({
-  loop:true,
-  autoplay:true,
-  margin:10,
-  nav:true,
-  responsive:{
-      0:{
-          items:1
-      },
-      600:{
-          items:1.5
-      },
-      1000:{
-          items:2.5
-      }
-  }
-});

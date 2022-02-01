@@ -17,7 +17,7 @@
     <!-- cairo font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <!-- title -->
     <title>Home</title>
 </head>
@@ -49,8 +49,10 @@
                   <input class="form-control me-2 " type="search" placeholder="البحث عن المنتجات" aria-label="Search">
                   <button class="btn btn-outline-secondary" type="submit"><span><i class="fas fa-search"></i></span></button>
                 </form>
-                <a href="/cart.html" class="mx-5"><span><i class="fas fa-shopping-cart text-warning" style="width: 35px; height: 50px;"></i></span></a>
-                <a href="/login.html" class="btn btn-outline-secondary">تسجيل الدخول <span><i class="fas fa-user"></i></span></a>
+                <!-- <div class="iconss"> -->
+                <a href="/cart.html" class="mx-5 cart"><span><i class="fas fa-shopping-cart text-warning " style="width: 35px; height: 50px;"></i></span></a>
+                <a href="/login.html" class="btn btn-outline-secondary login">تسجيل الدخول <span><i class="fas fa-user"></i></span></a>
+                <!-- </div> -->
               </div>
             </div>
           </nav>
@@ -129,25 +131,25 @@
         <div class="container my-5">
             <div class="row ">
                 <!--  -->
-                    <div class="col-lg-3 col-6">
+                    <div class="col-lg-3 ">
                         <a href="#">
                             <img src="./img/header-pic-first-row.jpg" class="img-fluid img-header" alt="homzdepot">
                         </a>
                     </div>
                 <!--  -->
-                    <div class="col-lg-3 col-6">
+                    <div class="col-lg-3 ">
                         <a href="#">
                             <img src="./img/header-pic-first-row.jpg" class="img-fluid img-header" alt="homzdepot">
                         </a>
                     </div>
                 <!--  -->
-                    <div class="col-lg-3 col-6">
+                    <div class="col-lg-3 ">
                         <a href="#">
                             <img src="./img/header-pic-first-row.jpg" class="img-fluid img-header" alt="homzdepot">
                         </a>
                     </div>
                 <!--  -->
-                    <div class="col-lg-3 col-6">
+                    <div class="col-lg-3 ">
                         <a href="#">
                             <img src="./img/header-pic-first-row.jpg" class="img-fluid img-header" alt="homzdepot">
                         </a>
@@ -162,55 +164,37 @@
                 <div class="container">
                     <div class="row">
                            <!-- carusal in header -->
-                            <div class="col-lg-9">
-                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="col-lg-12">
+                                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
-                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                     </div>
                                     <div class="carousel-inner">
                                       <div class="carousel-item active">
-                                        <a href="#">
-                                            <img src="./img/carusal-pic-1.jpg" class="d-block w-100 img-header" alt="...">
-                                        </a>
+                                        <img src="./img/carusal-pic-1.jpg" class="d-block w-100 carusal-img img-header img-fluid" alt="...">
+                                   
                                       </div>
                                       <div class="carousel-item">
-                                            <a href="#">
-                                                <img src="./img/carusal-pic-2.jpg" class="d-block w-100 img-header" alt="...">
-                                            </a>
-                                     </div>
+                                        <img src="./img/carusal-pic-2.jpg" class="d-block w-100 carusal-img img-header img-fluid" alt="...">
+                                    
+                                      </div>
                                       <div class="carousel-item">
-                                        <a href="#">
-                                            <img src="./img/carusal-pic-1.jpg" class="d-block w-100 img-header" alt="...">
-                                        </a>                                     
-                                     </div>
+                                        <img src="./img/carusal-pic-1.jpg" class="d-block w-100 carusal-img img-header img-fluid" alt="...">
+                                  
+                                      </div>
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                       <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
                                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                       <span class="visually-hidden">Next</span>
                                     </button>
                                   </div>
                             </div>
-                         <!-- carusal in header end  -->
-                         <!-- beside in carusal -->
-                         <div class="col-lg-3">
-                             <div class="my-1">
-                                <a href="#">
-                                    <img src="./img/beside-carusal.jpg" class="img-fluid img-header" alt="homzdepot">
-                                </a>
-                             </div>
-                             <div class="mt-3 pt-2">
-                                <a href="#">
-                                    <img src="./img/beside-carusal.jpg" class="img-fluid img-header" alt="homzdepot">
-                                </a>
-                             </div>
-                         </div>
-                 <!-- beside in carusal end -->
                     </div>
                 </div>
          <!-- second row header end -->
@@ -248,51 +232,53 @@
  
     <!-- index categories -->
     
-    <div  class=" items">
+    
     <div class="container my-5">
-        <div class="col-lg-12 my-3">
-            <h3> الفئات </h3>
+        <div class="row">
+                    <div class="col-lg-12 my-3">
+                         <h3> الفئات </h3>
+                     </div>
         </div>
-        <div class="row ">         
-            <div class="col-4 col-lg-3 my-2 ">
+        <div class="row">         
+            <div class=" col-lg-3  my-2 cate">
                 <a  href="#">
-                    <img src="./img/categories.png" class="img-fluid img-categories" alt="homzdepot">
+                    <img src="./img/categories.png" class="img-fluid img-categories w-50" alt="homzdepot">
                 </a>
             </div>
-            <div class="col-4 col-lg-3 my-2">
+            <div class=" col-lg-3 my-2 cate">
                 <a  href="#">
-                    <img src="./img/categories.png" class="img-fluid img-categories" alt="homzdepot">
+                    <img src="./img/categories.png" class="img-fluid img-categories w-50" alt="homzdepot">
                 </a>
             </div>
-            <div class="col-4 col-lg-3 my-2">
+            <div class=" col-lg-3  my-2 cate">
                 <a  href="#">
-                    <img src="./img/categories.png" class="img-fluid img-categories" alt="homzdepot">
+                    <img src="./img/categories.png" class="img-fluid img-categories w-50" alt="homzdepot">
                 </a>
             </div>
-            <div class="col-4 col-lg-3 my-2">
+            <div class=" col-lg-3  my-2 cate">
                 <a  href="#">
-                    <img src="./img/categories.png" class="img-fluid img-categories" alt="homzdepot">
+                    <img src="./img/categories.png" class="img-fluid img-categories w-50" alt="homzdepot">
                 </a>
             </div>                                
-            <div class="col-4 col-lg-3 my-2">
+            <div class=" col-lg-3  my-2 cate">
                 <a  href="#">
-                    <img src="./img/categories.png" class="img-fluid img-categories" alt="homzdepot">
+                    <img src="./img/categories.png" class="img-fluid img-categories w-50" alt="homzdepot">
                 </a>
             </div>                                
-            <div class="col-4 col-lg-3 my-2">
+            <div class=" col-lg-3  my-2 cate">
                 <a  href="#">
-                    <img src="./img/categories.png" class="img-fluid img-categories" alt="homzdepot">
+                    <img src="./img/categories.png" class="img-fluid img-categories w-50" alt="homzdepot">
                 </a>
             </div>                                
-            <div class="col-4 col-lg-3 my-2">
+            <div class=" col-lg-3  my-2 cate">
                 <a  href="#">
-                    <img src="./img/categories.png" class="img-fluid img-categories" alt="homzdepot">
+                    <img src="./img/categories.png" class="img-fluid img-categories w-50" alt="homzdepot">
                 </a>
             </div>                                
                                 
         </div>
     </div>
-</div>
+
     <!-- index categories end -->
 
     <!-- banner -->
@@ -310,7 +296,7 @@
     <!-- index recentely added -->
     <div class="container my-5">
         <div class="row ">
-            <div class="col-lg-12 text-center ">
+            <div class="col-12 text-center recentely-added ">
                 <h3 class="dark"> أضيف حديثا </h3>
                 <p> ماتفوتش أكبر عروضنا </p>
                 <a href="#" class="btn btn-dark"> عرض المزيد </a>
@@ -319,7 +305,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-sm-6">
+            <div class="col-lg-3">
                 <div class="product-grid">
                     <div class="product-image">
                         <a href="/product-details.html" class="image">
@@ -335,7 +321,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-lg-3">
                 <div class="product-grid">
                     <div class="product-image">
                         <a href="/product-details.html" class="image">
@@ -351,7 +337,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-lg-3">
                 <div class="product-grid">
                     <div class="product-image">
                         <a href="/product-details.html" class="image">
@@ -367,7 +353,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-lg-3">
                 <div class="product-grid">
                     <div class="product-image">
                         <a href="/product-details.html" class="image">
@@ -448,8 +434,8 @@
                 <div class="col-lg-3">
                     <h6> اشترك في نشرتنا </h6>
                     <p> .اشترك لمشاهدة آخر التحديثات في بريدك الالكتروني مباشرة </p>
-                    <form class="d-flex ">
-                        <input class="form-control me-2 " type="search" placeholder="name@example.com" aria-label="Search">
+                    <form class="d-flex my-3 ">
+                        <input class="form-control me-2" type="search" placeholder="name@example.com" aria-label="Search">
                         <button class="btn btn-outline-secondary" type="submit"><span><i class="far fa-paper-plane"></i></span></button>
                       </form>
                 </div>
@@ -461,12 +447,15 @@
                     <a class="footer-link" href="#"><i style="color: #55ACEE;"  class="fab fa-twitter"></i> <span class="px-1">تويتر</span></a><br>
                     <a class="footer-link" href="#"><i style="color: #1F88BE;"  class="fab fa-linkedin-in"></i> <span class="px-1">لينكد ان</span></a><br>
                 </div>
+                <div class="col-lg-12 ">
+                    <div class="text-center footer-end">
+                        <p class="fs-6">جميع الحقوق محفوظة @2022</p>
+                    </div>
+                </div>
             </div>
 
 
-                <div class="col-lg-12 text-center">
-                    <p class="fs-6">جميع الحقوق محفوظة @2022</p>
-                </div>
+               
         </div>
     </footer>
     <!-- footer end -->
