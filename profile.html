@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/fontawesome.css">
     <!-- style -->
     <link rel="stylesheet" href="./css/style.css">
+
     <!-- icon -->
     <link rel="icon" href="./img/Homzdepot-Logo.png">
     <!-- cairo font -->
@@ -18,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
     <!-- title -->
-    <title>contact-us</title>
+    <title>Home</title>
 </head>
 <body>
     <!-- nav bar -->
@@ -131,131 +132,121 @@
     
     </div>
     <!-- nav bar end -->
-   
-    <div class="container">
-        <div class="row my-5">
-            <div class="col-lg-6">
-                <h4>اتصل بنا </h4>
-                <h6>للتواصل معنا </h6>
-                <div>
-                    <p class="fw-bold"><span><i  class=" color-yellow fas fa-phone"></i></span> الخط الساخن</p>
-                    <p class="pe-3">11111</p>
+
+<!-- content start -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+     
+            <div class="d-flex align-items-start my-5">
+                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <button class=" btn btn-secondary my-2" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">طلباتي السابقه</button>
+                  <button class="btn btn-warning text-light my-2" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">حسابي</button>
+                  <button class="btn btn-warning text-light my-2" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">العناوين</button>
                 </div>
-                <div>
-                    <p class="fw-bold"><span><i  class=" color-yellow fas fa-clock"></i></span> مواعيد عمل خدمة العملاء</p>
-                    <p class="pe-3">كل يوم من 9:00 صباحاً إلي 7:00 مساءاً.</p>
-                </div>
-                <div>
-                    <p class="fw-bold"><span><i  class=" color-yellow fas fa-envelope"></i></span> البريد الإلكتروني </p>
-                    <p class="pe-3">hello@gmail.com</p>
-                </div>
-                <div>
-                    <p class="fw-bold"><span><i  class=" color-yellow fas fa-map-marker-alt"></i></span> العنوان </p>
-                    <p class="pe-3">المنصوره حي الجامعه</p>
+                
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade mx-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <table class="table table-bordered border-dark table-hover ">
+                        <thead>
+                          <tr class="table-dark ">
+                            <th scope="col">رقم الطلب </th>
+                            <th scope="col"> السعر </th>
+                            <th scope="col">التاريخ</th>
+                            <th scope="col">طريقه الدفع</th>
+                            <th scope="col"> حاله الطلب</th>
+                            <th scope="col"> التفاصيل</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="table-light">
+                            <th scope="row" >1</th>
+                            <td>20000 جنيه</td>
+                            <td>30-1-2022</td>
+                            <td> الدفع عند الاستلام </td>
+                            <td> قيد التجهيز </td>
+                            <td> <a href="" class="btn btn-outline-warning"> تفاصيل الطلب </a> </td>
+                          </tr>
+                          <tr>
+                        </tbody>
+                      </table>
+                  </div>
+                  <div class="tab-pane fade mx-5" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <p class="h3">حسابي</p>
+                    <p><span class="fw-bold"> الاسم : </span><span> amr nasser </span></p> 
+                    <p><span class="fw-bold"> البريد الالكتروني : </span><span> amr.nasser@gmail.com </span></p> 
+                  </div>
+                  <div class="tab-pane fade mx-5" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                        <p class="h4"> العناوين </p>
+                        <ol>
+                            <li> حي الجامعه شارع الهنداوي </li>
+                        </ol>
+                  </div>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div class="formthree ptb-100">
-               
-                        
-                                <form method="post" action="">
-                                    <div class="row my-3">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                 <label class="sr-only">الاسم الاول</label>
-                                                 <input type="text" class="form-control" required="" id="nameSix" placeholder="إدخل الاسم الاول">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                 <label class="sr-only">الاسم الأخير</label>
-                                                 <input type="text" class="form-control" required="" id="emailSix" placeholder="إدخل الاسم الأخير">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row my-3">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                 <label class="sr-only"> البريد الإلكتروني</label>
-                                                 <input type="email" class="form-control" required="" id="nameSix" placeholder="إدخل البريد الإلكتروني">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                 <label class="sr-only"> رقم الهاتف</label>
-                                                 <input type="number" class="form-control" required="" id="emailSix" placeholder="إدخل رقم الهاتف">
-                                            </div>
-                                        </div>
-                                    </div>
-                             
-                            
-                                    <div class="form-group my-3">
-                                         <label class="sr-only">الرساله</label>
-                                          <textarea class="form-control" required="" rows="7" placeholder="إدخل الرساله "></textarea>
-                                         </div>
-
-                                          <button  style="width: 100%;" type="submit" class="btn btn-secondary my-3">إرسل رساله </button>
-                                </form>
-                        
-                    </div> 
-          
-
-            </div>
+              
         </div>
     </div>
-    </div>
-    
-        <!-- footer -->
-        <footer class="mt-5 py-5" >
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <a href="/about-us.html" class="footer-link">عن هومزمارت</a><br>
-                        <a href="/return-policy.html" class="footer-link"> سياسه ارجاع السلع </a><br>
-                        <a href="/contact-us.html" class="footer-link"> اتصل بنا </a><br>
-                        <a href="/terms-conditions.html" class="footer-link"> الشروط والاحكام </a><br>
-                        <a href="#" class="footer-link"> الخصوصيه </a><br>
-                        <a href="#" class="footer-link"> وظائف </a><br>
-                    </div>
-    
-                    <div class="col-lg-3">
-                        <p> تحتاج للمساعده ؟ </p>
-                        <p> <span><i class="fas fa-envelope"></i></span> hello@gmail.com </p>
-                        <p> <span><i class="fas fa-map-marker-alt"></i></span> المنصوره , حي الجامعه </p>
-                    </div>
-    
-                    <div class="col-lg-3">
-                        <h6> اشترك في نشرتنا </h6>
-                        <p> .اشترك لمشاهدة آخر التحديثات في بريدك الالكتروني مباشرة </p>
-                        <form class="d-flex ">
-                            <input class="form-control me-2 " type="search" placeholder="name@example.com" aria-label="Search">
-                            <button class="btn btn-outline-secondary" type="submit"><span><i class="far fa-paper-plane"></i></span></button>
-                          </form>
-                    </div>
-    
-                    <div class="col-lg-3">
-                        <h6>شاركنا علي </h6>
-                        <a class="footer-link" href="#"><i style="color: #3B5998;" class="fab fa-facebook-square"></i> <span class="px-1">فيسبوك</span></a><br>
-                        <a class="footer-link" href="#"><i style="color: #FFA500;"  class="fab fa-instagram"></i> <span class="px-1">انستجرام</span> </a><br>
-                        <a class="footer-link" href="#"><i style="color: #55ACEE;"  class="fab fa-twitter"></i> <span class="px-1">تويتر</span></a><br>
-                        <a class="footer-link" href="#"><i style="color: #1F88BE;"  class="fab fa-linkedin-in"></i> <span class="px-1">لينكد ان</span></a><br>
-                    </div>
-                </div>
-    
-    
-                    <div class="col-lg-12 text-center">
-                        <p class="fs-6">جميع الحقوق محفوظة @2022</p>
-                    </div>
+</div>
+<!-- content end -->
+   <!-- footer -->
+   <footer class="mt-5 py-5" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <a href="/about-us.html" class="footer-link">عن هومزمارت</a><br>
+                <a href="/return-policy.html" class="footer-link"> سياسه ارجاع السلع </a><br>
+                <a href="/contact-us.html" class="footer-link"> اتصل بنا </a><br>
+                <a href="/terms-conditions.html" class="footer-link"> الشروط والاحكام </a><br>
+                <a href="#" class="footer-link"> الخصوصيه </a><br>
+                <a href="#" class="footer-link"> وظائف </a><br>
             </div>
-        </footer>
-        <!-- footer end -->
 
-    <!-- bootsrap js -->
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/all.min.js"></script>
-    <!-- jquery -->
-    <script src="./js/jquery-3.3.1.min.js"></script>
-    <!-- script -->
-    <script src="./js/script.js"></script>
+            <div class="col-lg-3">
+                <p> تحتاج للمساعده ؟ </p>
+                <p> <span><i class="fas fa-envelope"></i></span> hello@gmail.com </p>
+                <p> <span><i class="fas fa-map-marker-alt"></i></span> المنصوره , حي الجامعه </p>
+            </div>
+
+            <div class="col-lg-3">
+                <h6> اشترك في نشرتنا </h6>
+                <p> .اشترك لمشاهدة آخر التحديثات في بريدك الالكتروني مباشرة </p>
+                <form class="d-flex my-3 ">
+                    <input class="form-control me-2" type="search" placeholder="name@example.com" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit"><span><i class="far fa-paper-plane"></i></span></button>
+                  </form>
+            </div>
+
+            <div class="col-lg-3">
+                <h6>شاركنا علي </h6>
+                <a class="footer-link" href="#"><i style="color: #3B5998;" class="fab fa-facebook-square"></i> <span class="px-1">فيسبوك</span></a><br>
+                <a class="footer-link" href="#"><i style="color: #FFA500;"  class="fab fa-instagram"></i> <span class="px-1">انستجرام</span> </a><br>
+                <a class="footer-link" href="#"><i style="color: #55ACEE;"  class="fab fa-twitter"></i> <span class="px-1">تويتر</span></a><br>
+                <a class="footer-link" href="#"><i style="color: #1F88BE;"  class="fab fa-linkedin-in"></i> <span class="px-1">لينكد ان</span></a><br>
+            </div>
+            <div class="col-lg-12 ">
+                <div class="text-center footer-end">
+                    <p class="fs-6">جميع الحقوق محفوظة @2022</p>
+                </div>
+            </div>
+        </div>
+
+
+           
+    </div>
+</footer>
+<!-- footer end -->
+
+<!-- bootsrap js -->
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/all.min.js"></script>
+<!-- jquery -->
+<script src="./js/jquery-3.3.1.min.js"></script>
+<!-- script -->
+<script src="./js/script.js"></script>
+  <!-- zoom script -->
+
+<script src="scripts/zoom-image.js"></script>
+<script src="scripts/main.js"></script>
 </body>
 </html>

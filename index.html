@@ -17,7 +17,7 @@
     <!-- cairo font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
     <!-- title -->
     <title>Home</title>
 </head>
@@ -50,7 +50,14 @@
                   <button class="btn btn-outline-secondary" type="submit"><span><i class="fas fa-search"></i></span></button>
                 </form>
                 <!-- <div class="iconss"> -->
-                <a href="/cart.html" class="mx-5 cart"><span><i class="fas fa-shopping-cart text-warning " style="width: 35px; height: 50px;"></i></span></a>
+                    <a href="/cart.html" class=" cart mx-5 btn  position-relative">
+                        <i class="fas fa-shopping-cart text-secondary  position-relative" style="width: 35px; height: 50px;"></i>
+                        <!-- number of carts -->
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">
+                          99+
+                        </span>
+                    </a>
+
                 <a href="/login.html" class="btn btn-outline-secondary login">تسجيل الدخول <span><i class="fas fa-user"></i></span></a>
                 <!-- </div> -->
               </div>

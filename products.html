@@ -21,8 +21,8 @@
     <title>products</title>
 </head>
 <body>
-    <!-- nav bar -->
-    <div class="sticky-top">
+     <!-- nav bar -->
+     <div class="sticky-top">
         
         <div class="container-fluid bg-warning text-center py-2 ">
             <div class="row">
@@ -48,8 +48,17 @@
                   <input class="form-control me-2 " type="search" placeholder="البحث عن المنتجات" aria-label="Search">
                   <button class="btn btn-outline-secondary" type="submit"><span><i class="fas fa-search"></i></span></button>
                 </form>
-                <a href="/cart.html" class="mx-5"><span><i class="fas fa-shopping-cart text-warning" style="width: 35px; height: 50px;"></i></span></a>
-                <a href="/login.html" class="btn btn-outline-secondary">تسجيل الدخول <span><i class="fas fa-user"></i></span></a>
+                <!-- <div class="iconss"> -->
+                    <a href="/cart.html" class=" cart mx-5 btn  position-relative">
+                        <i class="fas fa-shopping-cart text-secondary  position-relative" style="width: 35px; height: 50px;"></i>
+                        <!-- number of carts -->
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">
+                          99+
+                        </span>
+                    </a>
+
+                <a href="/login.html" class="btn btn-outline-secondary login">تسجيل الدخول <span><i class="fas fa-user"></i></span></a>
+                <!-- </div> -->
               </div>
             </div>
           </nav>
