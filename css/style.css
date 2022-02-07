@@ -669,3 +669,6 @@ body {
     border: 2px solid #f1c40f;
 
 }
+.page-link:focus{
+box-shadow: none;
+}
